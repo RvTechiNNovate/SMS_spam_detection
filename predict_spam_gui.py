@@ -21,6 +21,8 @@ def mypredict():
 		outlbl.configure(text=pred[0],fg='red')
 	else:
 		outlbl.configure(text=pred[0],fg='green')
+		
+mytrain()
 
 root=Tk()
 root.state('zoomed')
